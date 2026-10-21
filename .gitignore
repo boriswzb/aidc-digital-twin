@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.edge-*/
+.edge-profile*/
+*.local
+.DS_Store
+Thumbs.db

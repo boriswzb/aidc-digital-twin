@@ -1,0 +1,90 @@
+{
+  "generatedAt": "2026-10-21T07:25:56.669Z",
+  "simulationStart": "2026-10-21T07:00:00.000Z",
+  "simulationEnd": "2026-10-21T19:01:00.000Z",
+  "ticks": 720,
+  "compute": {
+    "theoreticalPflops": 393.2,
+    "cardsTotal": 384,
+    "cardsHealthy": 384,
+    "utilizationPct": 31.3,
+    "queueDepth": 0,
+    "tokenRate": 53376,
+    "tokensTotal": 2164533120,
+    "faultsInjected": 3
+  },
+  "energy": {
+    "itKw": 205.3,
+    "totalKw": 265.95,
+    "pue": 1.295,
+    "benchmarkPue": 1.25,
+    "renewableSharePct": 0,
+    "powerBalancePct": 0
+  },
+  "thermal": {
+    "coldAisleC": 22.29,
+    "hotAisleC": 31.5,
+    "liquidSupplyC": 31.8,
+    "liquidReturnC": 38.93
+  },
+  "validation": {
+    "checkedAt": "2026-10-21T19:00:00.000Z",
+    "status": "pass",
+    "passed": true,
+    "maxPueDeviationPct": 0,
+    "maxBalanceDeviationPct": 0,
+    "calibration": {
+      "coolingScale": 1,
+      "distributionScale": 1,
+      "balanceTrimKw": 0
+    },
+    "cases": [
+      {
+        "name": "STD-01 · 设计工况 · 满负载",
+        "description": "IT 500 kW，风冷 / 液冷各 50%，环境 25°C，无光伏",
+        "itKw": 500,
+        "actualPue": 1.207,
+        "referencePue": 1.207,
+        "pueDeviationPct": 0,
+        "balanceDeviationPct": 0,
+        "coolingKw": 72.3,
+        "totalKw": 603.7,
+        "corrections": [],
+        "passed": true
+      },
+      {
+        "name": "STD-02 · 夏季高温 · 部分负载",
+        "description": "IT 400 kW，环境 35°C，光伏 180 kW，验证高温 COP 与功率平衡",
+        "itKw": 400,
+        "actualPue": 1.234,
+        "referencePue": 1.234,
+        "pueDeviationPct": 0,
+        "balanceDeviationPct": 0,
+        "coolingKw": 66.4,
+        "totalKw": 493.7,
+        "corrections": [],
+        "passed": true
+      },
+      {
+        "name": "STD-03 · 夜间低负载 · 待机",
+        "description": "IT 220 kW，环境 24°C，验证固定冷却开销对 PUE 的影响",
+        "itKw": 220,
+        "actualPue": 1.253,
+        "referencePue": 1.253,
+        "pueDeviationPct": 0,
+        "balanceDeviationPct": 0,
+        "coolingKw": 36.2,
+        "totalKw": 275.7,
+        "corrections": [],
+        "passed": true
+      }
+    ],
+    "correctionCount": 0
+  },
+  "replayGuard": {
+    "active": false,
+    "recoveries": 0,
+    "lastReason": null
+  },
+  "eventCount": 164
+}

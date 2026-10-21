@@ -1,0 +1,38 @@
+{
+  "name": "nexus-aidc-digital-twin",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AI 智算中心数字孪生仿真与运维 Agent",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "keywords": [
+    "digital-twin",
+    "aidc",
+    "threejs",
+    "npu-scheduler",
+    "pue",
+    "operations-agent"
+  ],
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "simulate": "tsx scripts/simulate.ts",
+    "artifacts": "tsx scripts/simulate.ts"
+  },
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/three": "^0.186.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  }
+}

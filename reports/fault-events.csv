@@ -1,0 +1,165 @@
+﻿timestamp,tick,severity,category,title,detail,status,rack_id,task_id
+2026-10-21T19:01:00.000Z,721,warning,energy,PUE 超行业基准线,实时 PUE 1.295，高于基准 1.25（+3.6%）。建议提升冷通道送风温度或降低制冷固定开销。,recovering,,
+2026-10-21T19:00:00.000Z,720,info,scheduler,弹性负载已接入,LLM-70B · 长序列预训练 自动放置至 A03。,resolved,,TRN-7071
+2026-10-21T18:58:00.000Z,718,success,scheduler,任务完成 · 资源已归还,多模态-MoE · 指令微调 完成 33.2M Token 处理，释放 48 张 NPU。,resolved,,TRN-7063
+2026-10-21T18:51:00.000Z,711,info,scheduler,弹性负载已接入,Embedding-4B · 向量化 自动放置至 A01 / A05。,resolved,,INF-7070
+2026-10-21T18:47:00.000Z,707,success,scheduler,任务完成 · 资源已归还,多模态-MoE · 指令微调 完成 11.1M Token 处理，释放 16 张 NPU。,resolved,,TRN-7062
+2026-10-21T18:40:00.000Z,700,success,scheduler,任务完成 · 资源已归还,Embedding-4B · 向量化 完成 15.0M Token 处理，释放 8 张 NPU。,resolved,,INF-7067
+2026-10-21T18:39:00.000Z,699,info,scheduler,弹性负载已接入,多模态-MoE · 指令微调 自动放置至 A04 / A06。,resolved,,TRN-7069
+2026-10-21T18:32:00.000Z,692,success,scheduler,任务完成 · 资源已归还,LLM-70B · 长序列预训练 完成 49.8M Token 处理，释放 48 张 NPU。,resolved,,TRN-7052
+2026-10-21T18:26:00.000Z,686,success,scheduler,任务完成 · 资源已归还,Embedding-4B · 向量化 完成 15.0M Token 处理，释放 8 张 NPU。,resolved,,INF-7066
+2026-10-21T18:25:00.000Z,685,info,scheduler,弹性负载已接入,DeepSeek-R1 · 实时推理 自动放置至 B02。,resolved,,INF-7068
+2026-10-21T18:16:00.000Z,676,warning,energy,PUE 超行业基准线,实时 PUE 1.262，高于基准 1.25（+0.9%）。建议提升冷通道送风温度或降低制冷固定开销。,recovering,,
+2026-10-21T18:16:00.000Z,676,success,scheduler,任务完成 · 资源已归还,DeepSeek-R1 · 实时推理 完成 39.9M Token 处理，释放 32 张 NPU。,resolved,,INF-7064
+2026-10-21T18:15:00.000Z,675,info,scheduler,弹性负载已接入,Embedding-4B · 向量化 自动放置至 A05。,resolved,,INF-7067
+2026-10-21T18:14:00.000Z,674,success,scheduler,任务完成 · 资源已归还,多模态-MoE · 指令微调 完成 22.1M Token 处理，释放 32 张 NPU。,resolved,,TRN-7059
+2026-10-21T18:10:00.000Z,670,success,scheduler,任务完成 · 资源已归还,LLM-70B · 长序列预训练 完成 33.2M Token 处理，释放 32 张 NPU。,resolved,,TRN-7050
+2026-10-21T18:01:00.000Z,661,info,scheduler,弹性负载已接入,Embedding-4B · 向量化 自动放置至 B04。,resolved,,INF-7066
+2026-10-21T17:50:00.000Z,650,success,scheduler,任务完成 · 资源已归还,DeepSeek-R1 · 实时推理 完成 20.0M Token 处理，释放 16 张 NPU。,resolved,,INF-7061
+2026-10-21T17:47:00.000Z,647,success,scheduler,任务完成 · 资源已归还,多模态-MoE · 指令微调 完成 22.1M Token 处理，释放 32 张 NPU。,resolved,,TRN-7056
+2026-10-21T17:47:00.000Z,647,info,scheduler,弹性负载已接入,多模态-MoE · 指令微调 自动放置至 B03。,resolved,,TRN-7065
+2026-10-21T17:36:00.000Z,636,info,scheduler,弹性负载已接入,DeepSeek-R1 · 实时推理 自动放置至 C04 / C05。,resolved,,INF-7064
+2026-10-21T17:28:00.000Z,628,info,scheduler,弹性负载已接入,多模态-MoE · 指令微调 自动放置至 A03 / B06 / C01。,resolved,,TRN-7063
+2026-10-21T17:26:00.000Z,626,success,scheduler,任务完成 · 资源已归还,Qwen3-72B · Agent 服务 完成 9.8M Token 处理，释放 8 张 NPU。,resolved,,INF-7060
+2026-10-21T17:17:00.000Z,617,info,scheduler,弹性负载已接入,多模态-MoE · 指令微调 自动放置至 A01。,resolved,,TRN-7062
+2026-10-21T17:12:00.000Z,612,success,scheduler,任务完成 · 资源已归还,LLM-70B · 长序列预训练 完成 33.2M Token 处理，释放 32 张 NPU。,resolved,,TRN-7045
+2026-10-21T17:10:00.000Z,610,info,scheduler,弹性负载已接入,DeepSeek-R1 · 实时推理 自动放置至 B05。,resolved,,INF-7061
+2026-10-21T17:07:00.000Z,607,success,scheduler,任务完成 · 资源已归还,DeepSeek-R1 · 实时推理 完成 20.0M Token 处理，释放 16 张 NPU。,resolved,,INF-7057
+2026-10-21T17:00:00.000Z,600,success,scheduler,任务完成 · 资源已归还,Embedding-4B · 向量化 完成 60.0M Token 处理，释放 32 张 NPU。,resolved,,INF-7058
+2026-10-21T16:56:00.000Z,596,info,scheduler,弹性负载已接入,Qwen3-72B · Agent 服务 自动放置至 C04。,resolved,,INF-7060
+2026-10-21T16:52:00.000Z,592,success,scheduler,任务完成 · 资源已归还,多模态-MoE · 指令微调 完成 22.1M Token 处理，释放 32 张 NPU。,resolved,,TRN-7051
+2026-10-21T16:44:00.000Z,584,info,scheduler,弹性负载已接入,多模态-MoE · 指令微调 自动放置至 C02 / C06。,resolved,,TRN-7059
+2026-10-21T16:35:00.000Z,575,info,scheduler,弹性负载已接入,Embedding-4B · 向量化 自动放置至 B06 / C01。,resolved,,INF-7058
+2026-10-21T16:27:00.000Z,567,success,energy,PUE 已回落至基准线内,当前 PUE 1.244，较基准低 0.5%。,resolved,,
+2026-10-21T16:27:00.000Z,567,info,scheduler,弹性负载已接入,DeepSeek-R1 · 实时推理 自动放置至 B05。,resolved,,INF-7057
+2026-10-21T16:21:00.000Z,561,warning,energy,PUE 超行业基准线,实时 PUE 1.252，高于基准 1.25（+0.1%）。建议提升冷通道送风温度或降低制冷固定开销。,resolved,,
+2026-10-21T16:21:00.000Z,561,success,scheduler,任务完成 · 资源已归还,Qwen3-72B · Agent 服务 完成 19.6M Token 处理，释放 16 张 NPU。,resolved,,INF-7054
+2026-10-21T16:17:00.000Z,557,success,energy,PUE 已回落至基准线内,当前 PUE 1.244，较基准低 0.5%。,resolved,,
+2026-10-21T16:17:00.000Z,557,info,scheduler,弹性负载已接入,多模态-MoE · 指令微调 自动放置至 B03 / B04。,resolved,,TRN-7056
+2026-10-21T16:06:00.000Z,546,success,fault,故障卡已完成隔离修复,1 张 NPU 通过巡检恢复健康，重新加入可调度资源池。,resolved,,
+2026-10-21T16:04:00.000Z,544,success,scheduler,任务完成 · 资源已归还,Embedding-4B · 向量化 完成 30.0M Token 处理，释放 16 张 NPU。,resolved,,INF-7053
+2026-10-21T16:04:00.000Z,544,info,scheduler,弹性负载已接入,LLM-70B · 长序列预训练 自动放置至 A02。,resolved,,TRN-7055
+2026-10-21T15:56:00.000Z,536,warning,energy,PUE 超行业基准线,实时 PUE 1.253，高于基准 1.25（+0.2%）。建议提升冷通道送风温度或降低制冷固定开销。,resolved,,
+2026-10-21T15:56:00.000Z,536,success,scheduler,任务完成 · 资源已归还,多模态-MoE · 指令微调 完成 33.2M Token 处理，释放 48 张 NPU。,resolved,,TRN-7046
+2026-10-21T15:51:00.000Z,531,info,scheduler,弹性负载已接入,Qwen3-72B · Agent 服务 自动放置至 B05。,resolved,,INF-7054
+2026-10-21T15:39:00.000Z,519,success,energy,PUE 已回落至基准线内,当前 PUE 1.245，较基准低 0.4%。,resolved,,
+2026-10-21T15:39:00.000Z,519,success,migration,热迁移完成 · 训练 / 推理续跑,LLM-70B · 长序列预训练 已在 B02 恢复满速，断点进度 15.6%，未产生业务中断。,resolved,B02,TRN-7050
+2026-10-21T15:39:00.000Z,519,info,scheduler,弹性负载已接入,Embedding-4B · 向量化 自动放置至 B03。,resolved,,INF-7053
+2026-10-21T15:36:00.000Z,516,critical,fault,单卡故障 · A05-N10,A05 机柜检测到 NPU 掉卡，XID 79 / HBM 校验异常；影响任务 LLM-70B · 长序列预训练。,resolved,A05,TRN-7050
+2026-10-21T15:36:00.000Z,516,warning,migration,热迁移已触发 · 业务零中断,LLM-70B · 长序列预训练 的 1 张算力卡迁移至 B02，通过 UnifiedBus 同步 KV Cache，预计 3 个调度周期完成。,resolved,B02,TRN-7050
+2026-10-21T15:32:00.000Z,512,warning,energy,PUE 超行业基准线,实时 PUE 1.253，高于基准 1.25（+0.2%）。建议提升冷通道送风温度或降低制冷固定开销。,resolved,,
+2026-10-21T15:32:00.000Z,512,success,scheduler,任务完成 · 资源已归还,多模态-MoE · 指令微调 完成 33.2M Token 处理，释放 48 张 NPU。,resolved,,TRN-7044
+2026-10-21T15:32:00.000Z,512,info,scheduler,弹性负载已接入,LLM-70B · 长序列预训练 自动放置至 A04 / A06 / B01。,resolved,,TRN-7052
+2026-10-21T15:30:00.000Z,510,success,scheduler,任务完成 · 资源已归还,DeepSeek-R1 · 实时推理 完成 20.0M Token 处理，释放 16 张 NPU。,resolved,,INF-7048
+2026-10-21T15:28:00.000Z,508,success,scheduler,任务完成 · 资源已归还,LLM-70B · 长序列预训练 完成 49.8M Token 处理，释放 48 张 NPU。,resolved,,TRN-7035
+2026-10-21T15:25:00.000Z,505,success,scheduler,任务完成 · 资源已归还,Embedding-4B · 向量化 完成 15.0M Token 处理，释放 8 张 NPU。,resolved,,INF-7049
+2026-10-21T15:22:00.000Z,502,info,scheduler,弹性负载已接入,多模态-MoE · 指令微调 自动放置至 C04 / C05。,resolved,,TRN-7051
+2026-10-21T15:08:00.000Z,488,info,scheduler,弹性负载已接入,LLM-70B · 长序列预训练 自动放置至 A05 / C03。,resolved,,TRN-7050
+2026-10-21T15:05:00.000Z,485,success,scheduler,任务完成 · 资源已归还,Embedding-4B · 向量化 完成 30.0M Token 处理，释放 16 张 NPU。,resolved,,INF-7047
+2026-10-21T15:00:00.000Z,480,info,scheduler,弹性负载已接入,Embedding-4B · 向量化 自动放置至 B02。,resolved,,INF-7049
+2026-10-21T14:50:00.000Z,470,success,energy,PUE 已回落至基准线内,当前 PUE 1.246，较基准低 0.3%。,resolved,,
+2026-10-21T14:50:00.000Z,470,info,scheduler,弹性负载已接入,DeepSeek-R1 · 实时推理 自动放置至 B01。,resolved,,INF-7048
+2026-10-21T14:46:00.000Z,466,warning,energy,PUE 超行业基准线,实时 PUE 1.254，高于基准 1.25（+0.3%）。建议提升冷通道送风温度或降低制冷固定开销。,resolved,,
+2026-10-21T14:46:00.000Z,466,success,scheduler,任务完成 · 资源已归还,LLM-70B · 长序列预训练 完成 33.2M Token 处理，释放 32 张 NPU。,resolved,,TRN-7031
+2026-10-21T14:40:00.000Z,460,info,scheduler,弹性负载已接入,Embedding-4B · 向量化 自动放置至 A05。,resolved,,INF-7047
+2026-10-21T14:31:00.000Z,451,success,scheduler,任务完成 · 资源已归还,Qwen3-72B · Agent 服务 完成 39.2M Token 处理，释放 32 张 NPU。,resolved,,INF-7043
+2026-10-21T14:26:00.000Z,446,info,scheduler,弹性负载已接入,多模态-MoE · 指令微调 自动放置至 A02 / B04 / C02。,resolved,,TRN-7046
+2026-10-21T14:23:00.000Z,443,success,scheduler,任务完成 · 资源已归还,Qwen3-72B · Agent 服务 完成 19.6M Token 处理，释放 16 张 NPU。,resolved,,INF-7042
+2026-10-21T14:12:00.000Z,432,info,scheduler,弹性负载已接入,LLM-70B · 长序列预训练 自动放置至 A01 / A03。,resolved,,TRN-7045
+2026-10-21T14:10:00.000Z,430,success,scheduler,任务完成 · 资源已归还,Qwen3-72B · Agent 服务 完成 19.6M Token 处理，释放 16 张 NPU。,resolved,,INF-7041
+2026-10-21T14:08:00.000Z,428,success,scheduler,任务完成 · 资源已归还,DeepSeek-R1 · 实时推理 完成 39.9M Token 处理，释放 32 张 NPU。,resolved,,INF-7040
+2026-10-21T14:07:00.000Z,427,success,scheduler,任务完成 · 资源已归还,LLM-70B · 长序列预训练 完成 49.8M Token 处理，释放 48 张 NPU。,resolved,,TRN-7030
+2026-10-21T14:02:00.000Z,422,info,scheduler,弹性负载已接入,多模态-MoE · 指令微调 自动放置至 B03 / B06 / C01。,resolved,,TRN-7044
+2026-10-21T14:01:00.000Z,421,info,scheduler,新任务已自动调度,Qwen3-72B · Agent 服务 已放置到 A05 / B01，占用 32 张 NPU。,resolved,,INF-7043
+2026-10-21T14:01:00.000Z,421,success,scheduler,任务完成 · 资源已归还,LLM-70B · 长序列预训练 完成 16.6M Token 处理，释放 16 张 NPU。,resolved,,TRN-7029
+2026-10-21T13:53:00.000Z,413,info,scheduler,弹性负载已接入,Qwen3-72B · Agent 服务 自动放置至 A02。,resolved,,INF-7042
+2026-10-21T13:40:00.000Z,400,success,scheduler,任务完成 · 资源已归还,Embedding-4B · 向量化 完成 60.0M Token 处理，释放 32 张 NPU。,resolved,,INF-7039
+2026-10-21T13:40:00.000Z,400,info,scheduler,弹性负载已接入,Qwen3-72B · Agent 服务 自动放置至 A01。,resolved,,INF-7041
+2026-10-21T13:36:00.000Z,396,success,scheduler,任务完成 · 资源已归还,LLM-70B · 长序列预训练 完成 33.2M Token 处理，释放 32 张 NPU。,resolved,,TRN-7026
+2026-10-21T13:31:00.000Z,391,success,scheduler,任务完成 · 资源已归还,Qwen3-72B · Agent 服务 完成 39.2M Token 处理，释放 32 张 NPU。,resolved,,INF-7038
+2026-10-21T13:28:00.000Z,388,info,scheduler,弹性负载已接入,DeepSeek-R1 · 实时推理 自动放置至 A03 / B04。,resolved,,INF-7040
+2026-10-21T13:15:00.000Z,375,info,scheduler,弹性负载已接入,Embedding-4B · 向量化 自动放置至 A01 / A02。,resolved,,INF-7039
+2026-10-21T13:12:00.000Z,372,success,scheduler,任务完成 · 资源已归还,Embedding-4B · 向量化 完成 30.0M Token 处理，释放 16 张 NPU。,resolved,,INF-7037
+2026-10-21T13:04:00.000Z,364,success,scheduler,任务完成 · 资源已归还,Embedding-4B · 向量化 完成 60.0M Token 处理，释放 32 张 NPU。,resolved,,INF-7036
+2026-10-21T13:02:00.000Z,362,success,scheduler,任务完成 · 资源已归还,LLM-70B · 长序列预训练 完成 33.2M Token 处理，释放 32 张 NPU。,resolved,,TRN-7023
+2026-10-21T13:01:00.000Z,361,info,scheduler,弹性负载已接入,Qwen3-72B · Agent 服务 自动放置至 A05 / B01。,resolved,,INF-7038
+2026-10-21T12:47:00.000Z,347,info,scheduler,弹性负载已接入,Embedding-4B · 向量化 自动放置至 A03。,resolved,,INF-7037
+2026-10-21T12:46:00.000Z,346,success,scheduler,任务完成 · 资源已归还,Qwen3-72B · Agent 服务 完成 39.2M Token 处理，释放 32 张 NPU。,resolved,,INF-7034
+2026-10-21T12:42:00.000Z,342,success,scheduler,任务完成 · 资源已归还,DeepSeek-R1 · 实时推理 完成 10.0M Token 处理，释放 8 张 NPU。,resolved,,INF-7033
+2026-10-21T12:41:00.000Z,341,success,fault,故障卡已完成隔离修复,1 张 NPU 通过巡检恢复健康，重新加入可调度资源池。,resolved,,
+2026-10-21T12:39:00.000Z,339,info,scheduler,弹性负载已接入,Embedding-4B · 向量化 自动放置至 C06 / D01。,resolved,,INF-7036
+2026-10-21T12:28:00.000Z,328,info,scheduler,弹性负载已接入,LLM-70B · 长序列预训练 自动放置至 A04 / A06 / B05。,resolved,,TRN-7035
+2026-10-21T12:27:00.000Z,327,success,scheduler,任务完成 · 资源已归还,多模态-MoE · 指令微调 完成 22.1M Token 处理，释放 32 张 NPU。,resolved,,TRN-7028
+2026-10-21T12:25:00.000Z,325,success,scheduler,任务完成 · 资源已归还,Qwen3-72B · Agent 服务 完成 19.6M Token 处理，释放 16 张 NPU。,resolved,,INF-7032
+2026-10-21T12:16:00.000Z,316,success,scheduler,任务完成 · 资源已归还,多模态-MoE · 指令微调 完成 11.1M Token 处理，释放 16 张 NPU。,resolved,,TRN-7027
+2026-10-21T12:16:00.000Z,316,info,scheduler,弹性负载已接入,Qwen3-72B · Agent 服务 自动放置至 A03 / B01。,resolved,,INF-7034
+2026-10-21T12:14:00.000Z,314,success,migration,热迁移完成 · 训练 / 推理续跑,多模态-MoE · 指令微调 已在 A06 恢复满速，断点进度 84.4%，未产生业务中断。,resolved,A06,TRN-7028
+2026-10-21T12:11:00.000Z,311,critical,fault,单卡故障 · B04-N12,B04 机柜检测到 NPU 掉卡，XID 79 / HBM 校验异常；影响任务 多模态-MoE · 指令微调。,resolved,B04,TRN-7028
+2026-10-21T12:11:00.000Z,311,warning,migration,热迁移已触发 · 业务零中断,多模态-MoE · 指令微调 的 1 张算力卡迁移至 A06，通过 UnifiedBus 同步 KV Cache，预计 3 个调度周期完成。,resolved,A06,TRN-7028
+2026-10-21T12:02:00.000Z,302,success,scheduler,任务完成 · 资源已归还,LLM-70B · 长序列预训练 完成 16.6M Token 处理，释放 16 张 NPU。,resolved,,TRN-7017
+2026-10-21T12:02:00.000Z,302,info,scheduler,弹性负载已接入,DeepSeek-R1 · 实时推理 自动放置至 A05。,resolved,,INF-7033
+2026-10-21T11:55:00.000Z,295,success,scheduler,任务完成 · 资源已归还,多模态-MoE · 指令微调 完成 33.2M Token 处理，释放 48 张 NPU。,resolved,,TRN-7025
+2026-10-21T11:55:00.000Z,295,info,scheduler,弹性负载已接入,Qwen3-72B · Agent 服务 自动放置至 A04。,resolved,,INF-7032
+2026-10-21T11:46:00.000Z,286,info,scheduler,弹性负载已接入,LLM-70B · 长序列预训练 自动放置至 B02 / C05。,resolved,,TRN-7031
+2026-10-21T11:44:00.000Z,284,success,scheduler,任务完成 · 资源已归还,LLM-70B · 长序列预训练 完成 16.6M Token 处理，释放 16 张 NPU。,resolved,,TRN-7015
+2026-10-21T11:07:00.000Z,247,info,scheduler,弹性负载已接入,LLM-70B · 长序列预训练 自动放置至 C02 / C03 / C04。,resolved,,TRN-7030
+2026-10-21T11:02:00.000Z,242,success,energy,PUE 已回落至基准线内,当前 PUE 1.250，较基准低 0.0%。,resolved,,
+2026-10-21T11:01:00.000Z,241,info,scheduler,新任务已自动调度,LLM-70B · 长序列预训练 已放置到 B06，占用 16 张 NPU。,resolved,,TRN-7029
+2026-10-21T10:55:00.000Z,235,info,scheduler,弹性负载已接入,多模态-MoE · 指令微调 自动放置至 B04 / B05。,resolved,,TRN-7028
+2026-10-21T10:46:00.000Z,226,info,scheduler,弹性负载已接入,多模态-MoE · 指令微调 自动放置至 A03。,resolved,,TRN-7027
+2026-10-21T10:43:00.000Z,223,warning,energy,PUE 超行业基准线,实时 PUE 1.280，高于基准 1.25（+2.4%）。建议提升冷通道送风温度或降低制冷固定开销。,resolved,,
+2026-10-21T10:43:00.000Z,223,success,scheduler,任务完成 · 资源已归还,LLM-70B · 长序列预训练 完成 49.8M Token 处理，释放 48 张 NPU。,resolved,,TRN-7010
+2026-10-21T10:39:00.000Z,219,success,scheduler,任务完成 · 资源已归还,Embedding-4B · 向量化 完成 30.0M Token 处理，释放 16 张 NPU。,resolved,,INF-7024
+2026-10-21T10:36:00.000Z,216,success,energy,PUE 已回落至基准线内,当前 PUE 1.250，较基准低 0.0%。,resolved,,
+2026-10-21T10:36:00.000Z,216,info,scheduler,弹性负载已接入,LLM-70B · 长序列预训练 自动放置至 B03 / C01。,resolved,,TRN-7026
+2026-10-21T10:25:00.000Z,205,info,scheduler,弹性负载已接入,多模态-MoE · 指令微调 自动放置至 A04 / A06 / B01。,resolved,,TRN-7025
+2026-10-21T10:24:00.000Z,204,warning,energy,PUE 超行业基准线,实时 PUE 1.282，高于基准 1.25（+2.5%）。建议提升冷通道送风温度或降低制冷固定开销。,resolved,,
+2026-10-21T10:23:00.000Z,203,success,scheduler,任务完成 · 资源已归还,Qwen3-72B · Agent 服务 完成 9.8M Token 处理，释放 8 张 NPU。,resolved,,INF-7022
+2026-10-21T10:16:00.000Z,196,success,scheduler,任务完成 · 资源已归还,DeepSeek-R1 · 实时推理 完成 10.0M Token 处理，释放 8 张 NPU。,resolved,,INF-7020
+2026-10-21T10:14:00.000Z,194,info,scheduler,弹性负载已接入,Embedding-4B · 向量化 自动放置至 A03。,resolved,,INF-7024
+2026-10-21T10:10:00.000Z,190,success,scheduler,任务完成 · 资源已归还,LLM-70B · 长序列预训练 完成 33.2M Token 处理，释放 32 张 NPU。,resolved,,TRN-7007
+2026-10-21T10:08:00.000Z,188,success,scheduler,任务完成 · 资源已归还,Embedding-4B · 向量化 完成 30.0M Token 处理，释放 16 张 NPU。,resolved,,INF-7021
+2026-10-21T10:02:00.000Z,182,info,scheduler,弹性负载已接入,LLM-70B · 长序列预训练 自动放置至 A01 / A02。,resolved,,TRN-7023
+2026-10-21T10:00:00.000Z,180,success,scheduler,任务完成 · 资源已归还,LLM-70B · 长序列预训练 完成 66.4M Token 处理，释放 64 张 NPU。,resolved,,TRN-7001
+2026-10-21T09:53:00.000Z,173,success,scheduler,任务完成 · 资源已归还,Qwen3-72B · Agent 服务 完成 19.6M Token 处理，释放 16 张 NPU。,resolved,,INF-7019
+2026-10-21T09:53:00.000Z,173,info,scheduler,弹性负载已接入,Qwen3-72B · Agent 服务 自动放置至 B01。,resolved,,INF-7022
+2026-10-21T09:43:00.000Z,163,info,scheduler,弹性负载已接入,Embedding-4B · 向量化 自动放置至 A06。,resolved,,INF-7021
+2026-10-21T09:39:00.000Z,159,warning,energy,PUE 超行业基准线,实时 PUE 1.258，高于基准 1.25（+0.7%）。建议提升冷通道送风温度或降低制冷固定开销。,resolved,,
+2026-10-21T09:39:00.000Z,159,success,scheduler,任务完成 · 资源已归还,Embedding-4B · 向量化 完成 60.0M Token 处理，释放 32 张 NPU。,resolved,,INF-7018
+2026-10-21T09:36:00.000Z,156,success,energy,PUE 已回落至基准线内,当前 PUE 1.250，较基准低 0.0%。,resolved,,
+2026-10-21T09:36:00.000Z,156,info,scheduler,弹性负载已接入,DeepSeek-R1 · 实时推理 自动放置至 B03。,resolved,,INF-7020
+2026-10-21T09:32:00.000Z,152,warning,energy,PUE 超行业基准线,实时 PUE 1.253，高于基准 1.25（+0.3%）。建议提升冷通道送风温度或降低制冷固定开销。,resolved,,
+2026-10-21T09:32:00.000Z,152,success,scheduler,任务完成 · 资源已归还,DeepSeek-R1 · 实时推理 完成 39.9M Token 处理，释放 32 张 NPU。,resolved,,INF-7016
+2026-10-21T09:31:00.000Z,151,success,scheduler,任务完成 · 资源已归还,多模态-MoE · 指令微调 完成 33.2M Token 处理，释放 48 张 NPU。,resolved,,TRN-7012
+2026-10-21T09:23:00.000Z,143,info,scheduler,弹性负载已接入,Qwen3-72B · Agent 服务 自动放置至 C02。,resolved,,INF-7019
+2026-10-21T09:14:00.000Z,134,info,scheduler,弹性负载已接入,Embedding-4B · 向量化 自动放置至 A06 / B01。,resolved,,INF-7018
+2026-10-21T09:04:00.000Z,124,success,scheduler,任务完成 · 资源已归还,多模态-MoE · 指令微调 完成 22.1M Token 处理，释放 32 张 NPU。,resolved,,TRN-7009
+2026-10-21T09:04:00.000Z,124,success,scheduler,任务完成 · 资源已归还,Qwen3-72B · Agent 服务 完成 39.2M Token 处理，释放 32 张 NPU。,resolved,,INF-7014
+2026-10-21T09:02:00.000Z,122,info,scheduler,弹性负载已接入,LLM-70B · 长序列预训练 自动放置至 A05。,resolved,,TRN-7017
+2026-10-21T09:01:00.000Z,121,success,fault,故障卡已完成隔离修复,1 张 NPU 通过巡检恢复健康，重新加入可调度资源池。,resolved,,
+2026-10-21T08:54:00.000Z,114,success,scheduler,任务完成 · 资源已归还,DeepSeek-R1 · 实时推理 完成 39.9M Token 处理，释放 32 张 NPU。,resolved,,INF-7013
+2026-10-21T08:52:00.000Z,112,info,scheduler,弹性负载已接入,DeepSeek-R1 · 实时推理 自动放置至 B03 / C01。,resolved,,INF-7016
+2026-10-21T08:44:00.000Z,104,info,scheduler,弹性负载已接入,LLM-70B · 长序列预训练 自动放置至 B02。,resolved,,TRN-7015
+2026-10-21T08:34:00.000Z,94,success,migration,热迁移完成 · 训练 / 推理续跑,DeepSeek-R1 · 实时推理 已在 A05 恢复满速，断点进度 47.5%，未产生业务中断。,resolved,A05,INF-7013
+2026-10-21T08:34:00.000Z,94,info,scheduler,弹性负载已接入,Qwen3-72B · Agent 服务 自动放置至 A06 / B01。,resolved,,INF-7014
+2026-10-21T08:33:00.000Z,93,success,scheduler,任务完成 · 资源已归还,DeepSeek-R1 · 实时推理 完成 39.9M Token 处理，释放 32 张 NPU。,resolved,,INF-7011
+2026-10-21T08:31:00.000Z,91,critical,fault,单卡故障 · D04-N01,D04 机柜检测到 NPU 掉卡，XID 79 / HBM 校验异常；影响任务 DeepSeek-R1 · 实时推理。,resolved,D04,INF-7013
+2026-10-21T08:31:00.000Z,91,warning,migration,热迁移已触发 · 业务零中断,DeepSeek-R1 · 实时推理 的 1 张算力卡迁移至 A05，通过 UnifiedBus 同步 KV Cache，预计 3 个调度周期完成。,resolved,A05,INF-7013
+2026-10-21T08:30:00.000Z,90,success,scheduler,任务完成 · 资源已归还,多模态-MoE · 指令微调 完成 22.1M Token 处理，释放 32 张 NPU。,resolved,,TRN-7002
+2026-10-21T08:30:00.000Z,90,success,scheduler,任务完成 · 资源已归还,多模态-MoE · 指令微调 · 副本B 完成 33.2M Token 处理，释放 48 张 NPU。,resolved,,TRN-7003-B
+2026-10-21T08:12:00.000Z,72,info,scheduler,弹性负载已接入,DeepSeek-R1 · 实时推理 自动放置至 D04 / D05。,resolved,,INF-7013
+2026-10-21T08:01:00.000Z,61,success,scheduler,任务完成 · 资源已归还,DeepSeek-R1 · 实时推理 完成 39.9M Token 处理，释放 32 张 NPU。,resolved,,INF-7008
+2026-10-21T08:01:00.000Z,61,info,scheduler,弹性负载已接入,多模态-MoE · 指令微调 自动放置至 C05 / C06 / D01。,resolved,,TRN-7012
+2026-10-21T07:53:00.000Z,53,info,scheduler,弹性负载已接入,DeepSeek-R1 · 实时推理 自动放置至 C01 / C04。,resolved,,INF-7011
+2026-10-21T07:43:00.000Z,43,success,energy,PUE 已回落至基准线内,当前 PUE 1.237，较基准低 1.0%。,resolved,,
+2026-10-21T07:43:00.000Z,43,info,scheduler,弹性负载已接入,LLM-70B · 长序列预训练 自动放置至 B04 / B05 / B06。,resolved,,TRN-7010
+2026-10-21T07:40:00.000Z,40,warning,energy,PUE 超行业基准线,实时 PUE 1.254，高于基准 1.25（+0.3%）。建议提升冷通道送风温度或降低制冷固定开销。,resolved,,
+2026-10-21T07:40:00.000Z,40,success,scheduler,任务完成 · 资源已归还,DeepSeek-R1 · 实时推理 完成 79.9M Token 处理，释放 64 张 NPU。,resolved,,INF-7004
+2026-10-21T07:34:00.000Z,34,info,scheduler,弹性负载已接入,多模态-MoE · 指令微调 自动放置至 C02 / C03。,resolved,,TRN-7009
+2026-10-21T07:30:00.000Z,30,success,scheduler,任务完成 · 资源已归还,Qwen3-72B · Agent 服务 完成 49.0M Token 处理，释放 40 张 NPU。,resolved,,INF-7005
+2026-10-21T07:25:00.000Z,25,success,scheduler,任务完成 · 资源已归还,Embedding-4B · 向量化 · 副本B 完成 75.0M Token 处理，释放 40 张 NPU。,resolved,,INF-7006-B
+2026-10-21T07:21:00.000Z,21,info,scheduler,弹性负载已接入,DeepSeek-R1 · 实时推理 自动放置至 D04 / D05。,resolved,,INF-7008
+2026-10-21T07:10:00.000Z,10,info,scheduler,弹性负载已接入,LLM-70B · 长序列预训练 自动放置至 D02 / D03。,resolved,,TRN-7007
+2026-10-21T07:00:00.000Z,0,info,system,算力调度器就绪,384 张 NPU 已纳管，Spine-Leaf 无损网络与 UnifiedBus 互联自检通过。,resolved,,
+2026-10-21T07:00:00.000Z,0,success,scheduler,初始训练 / 推理负载已编排,6 个任务完成首次放置，当前空闲算力 96 卡。,resolved,,
+2026-10-21T07:00:00.000Z,0,success,validation,模型自动校验通过,标准算例 PUE 最大偏差 0.00%，功率平衡偏差 0.0000%。,resolved,,
